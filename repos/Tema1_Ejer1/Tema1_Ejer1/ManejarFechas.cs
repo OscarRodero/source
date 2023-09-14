@@ -9,40 +9,53 @@ namespace Tema1_Ejer1
 {
     public class ManejarFechas
     {
-        public void Menu() {
-            Console.WriteLine("¿Qué quieres hacer?");
-            Console.WriteLine();
-            Console.WriteLine("1.- Ver el día de la semana");
-            Console.WriteLine("2.- Incrementar una fecha");
-            Console.WriteLine("3.- Ver diferencia entre fechas");
-            Console.WriteLine("4.- Comparar fechas");
-            Console.WriteLine("5.- Mostrar una fecha en formato largo");
-            try {
-                String a = Console.ReadLine();
-                int x;
-                bool y = int.TryParse(a, out x);
-                if (y) {
-                    switch (x) {
-                        case 1:
-                            DiaSemana();
-                            break;
-                        case 2:
-                            IncrementarFecha();
-                            break;
-                        case 3:
-                            break;
-                        case 4:
-                            break;
-                        case 5:
-                            break;
-                        default:
-                            Console.WriteLine("Opción no reconocida, abortando...");
-                            break;
+        public void Menu() {            
+            bool salir = false;
+            while (!salir) {
+                Console.WriteLine("¿Qué quieres hacer?");
+                Console.WriteLine();
+                Console.WriteLine("1.- Ver el día de la semana");
+                Console.WriteLine("2.- Incrementar una fecha");
+                Console.WriteLine("3.- Ver diferencia entre fechas");
+                Console.WriteLine("4.- Comparar fechas");
+                Console.WriteLine("5.- Mostrar una fecha en formato largo");
+                Console.WriteLine("6.- Atrás");
+                try
+                {
+                    String a = Console.ReadLine();
+                    int x = 0;
+                    bool y = int.TryParse(a, out x);                    
+                    if (y)
+                    {
+                        switch (x)
+                        {
+                            case 1:
+                                DiaSemana();
+                                break;
+                            case 2:
+                                IncrementarFecha();
+                                break;
+                            case 3:
+                                break;
+                            case 4:
+                                break;
+                            case 5:
+                                break;
+                            case 6:
+                                salir = true;
+                                break;
+                            default:
+                                Console.WriteLine("Opción no reconocida, abortando...");
+                                break;
+                        }
                     }
                 }
-            } catch (Exception e) { 
-                Console.WriteLine(e.ToString());
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
             }
+            
         }
 
         private void IncrementarFecha()
@@ -53,9 +66,13 @@ namespace Tema1_Ejer1
                 String fecha = Console.ReadLine();
                 DateTime dateTime = DateTime.Parse(fecha);
                 Console.WriteLine("Introduce el número de días a incrementar");
-                bool conversion = int.TryParse(Console.ReadLine());
-                Console.WriteLine("Dia: " + dateTime.DayOfWeek.ToString());
-                Console.WriteLine(x);
+                String numero = Console.ReadLine();
+                int NumeroCorrecto;
+                bool esNumero = int.TryParse(numero, out NumeroCorrecto);
+                if (esNumero) { 
+                    dateTime = dateTime.AddDays(NumeroCorrecto);
+                    Console.WriteLine(dateTime.ToString());
+                }
             }
             catch (FormatException)
             {
