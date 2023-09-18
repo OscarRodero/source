@@ -11,12 +11,17 @@ namespace Tema1_Ejer1
 		private String titulo;
 		private int anio;
 		private String genero;
+		private String plataforma;
 
-        public Juego(string? titulo, int anio, string? genero)
+		
+
+
+		public Juego(string titulo, int anio, string genero, string plataforma)
         {
             this.titulo = titulo;
             this.anio = anio;
             this.genero = genero;
+			this.plataforma = plataforma;
         }
 
         public String Titulo
@@ -34,5 +39,10 @@ namespace Tema1_Ejer1
 			get { return genero; }
 			set { genero = value; }
 		}
-	}
+        public String Plataforma
+        {
+            get { return plataforma; }
+            set { plataforma = value; }
+        }
+    }
 }
