@@ -16,5 +16,21 @@ namespace Controles
         {
             InitializeComponent();
         }
+
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            ColorDialog dlg = new ColorDialog();
+            if (dlg.ShowDialog() == DialogResult.OK) {
+                this.BackColor = dlg.Color;
+            }
+        }
+
+        private void btnTipoLetra_Click(object sender, EventArgs e)
+        {
+            FontDialog fontDialog = new FontDialog();
+            if (fontDialog.ShowDialog() == DialogResult.OK) { 
+                txtPrueba.Font = fontDialog.Font;
+            }
+        }
     }
 }

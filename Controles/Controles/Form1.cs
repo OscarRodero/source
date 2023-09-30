@@ -32,12 +32,6 @@ namespace Controles
                 childForm.Show();
             }
         }
-
-        private void OpenFormAndCheck(Form childForm)
-        {
-            OpenChildForm(childForm);
-        }
-
         private void btnTextBox_Click(object sender, EventArgs e)
         {
             OpenChildForm(new frmTextBox());
@@ -50,42 +44,37 @@ namespace Controles
 
         private void btnColores_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmColores());
         }
 
         private void btnListas_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmListas());
         }
 
         private void btnCajas_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmCajas());
         }
 
         private void btnComboBox_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmCombobox());
         }
 
         private void btnCalendarios_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmCalendario());
         }
 
         private void btnTemporizador_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new frmTemporizador());
         }
 
         private void btnGama_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnImagenes_Click(object sender, EventArgs e)
-        {
-
+            OpenChildForm(new frmGamaColores());
         }
     }
 }

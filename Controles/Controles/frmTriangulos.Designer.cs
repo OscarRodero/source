@@ -28,101 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtLado1 = new TextBox();
-            txtLado2 = new TextBox();
-            txtLado3 = new TextBox();
-            lblLado1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            btnComprobarTriangulo = new Button();
-            lblResultado = new Label();
-            SuspendLayout();
+            this.txtLado1 = new System.Windows.Forms.TextBox();
+            this.txtLado2 = new System.Windows.Forms.TextBox();
+            this.txtLado3 = new System.Windows.Forms.TextBox();
+            this.lblLado1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnComprobarTriangulo = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // txtLado1
             // 
-            txtLado1.Location = new Point(201, 68);
-            txtLado1.Name = "txtLado1";
-            txtLado1.Size = new Size(100, 23);
-            txtLado1.TabIndex = 0;
+            this.txtLado1.Location = new System.Drawing.Point(201, 68);
+            this.txtLado1.Name = "txtLado1";
+            this.txtLado1.Size = new System.Drawing.Size(100, 23);
+            this.txtLado1.TabIndex = 0;
+            this.txtLado1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.chek1);
             // 
             // txtLado2
             // 
-            txtLado2.Location = new Point(201, 122);
-            txtLado2.Name = "txtLado2";
-            txtLado2.Size = new Size(100, 23);
-            txtLado2.TabIndex = 1;
+            this.txtLado2.Location = new System.Drawing.Point(201, 122);
+            this.txtLado2.Name = "txtLado2";
+            this.txtLado2.Size = new System.Drawing.Size(100, 23);
+            this.txtLado2.TabIndex = 1;
+            this.txtLado2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.chek2);
             // 
             // txtLado3
             // 
-            txtLado3.Location = new Point(201, 183);
-            txtLado3.Name = "txtLado3";
-            txtLado3.Size = new Size(100, 23);
-            txtLado3.TabIndex = 2;
+            this.txtLado3.Location = new System.Drawing.Point(201, 183);
+            this.txtLado3.Name = "txtLado3";
+            this.txtLado3.Size = new System.Drawing.Size(100, 23);
+            this.txtLado3.TabIndex = 2;
+            this.txtLado3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.chek3);
             // 
             // lblLado1
             // 
-            lblLado1.AutoSize = true;
-            lblLado1.Location = new Point(81, 66);
-            lblLado1.Name = "lblLado1";
-            lblLado1.Size = new Size(42, 15);
-            lblLado1.TabIndex = 3;
-            lblLado1.Text = "Lado 1";
+            this.lblLado1.AutoSize = true;
+            this.lblLado1.Location = new System.Drawing.Point(81, 66);
+            this.lblLado1.Name = "lblLado1";
+            this.lblLado1.Size = new System.Drawing.Size(42, 15);
+            this.lblLado1.TabIndex = 3;
+            this.lblLado1.Text = "Lado 1";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(81, 125);
-            label2.Name = "label2";
-            label2.Size = new Size(42, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Lado 2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(81, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Lado 2";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(81, 183);
-            label3.Name = "label3";
-            label3.Size = new Size(42, 15);
-            label3.TabIndex = 5;
-            label3.Text = "Lado 3";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(81, 183);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 15);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Lado 3";
             // 
             // btnComprobarTriangulo
             // 
-            btnComprobarTriangulo.Location = new Point(81, 237);
-            btnComprobarTriangulo.Name = "btnComprobarTriangulo";
-            btnComprobarTriangulo.Size = new Size(220, 23);
-            btnComprobarTriangulo.TabIndex = 6;
-            btnComprobarTriangulo.Text = "¿Será un triángulo?";
-            btnComprobarTriangulo.UseVisualStyleBackColor = true;
-            btnComprobarTriangulo.Click += btnComprobarTriangulo_Click;
+            this.btnComprobarTriangulo.Location = new System.Drawing.Point(81, 237);
+            this.btnComprobarTriangulo.Name = "btnComprobarTriangulo";
+            this.btnComprobarTriangulo.Size = new System.Drawing.Size(220, 23);
+            this.btnComprobarTriangulo.TabIndex = 6;
+            this.btnComprobarTriangulo.Text = "¿Será un triángulo?";
+            this.btnComprobarTriangulo.UseVisualStyleBackColor = true;
             // 
             // lblResultado
             // 
-            lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(176, 283);
-            lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(0, 15);
-            lblResultado.TabIndex = 7;
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(176, 283);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(0, 15);
+            this.lblResultado.TabIndex = 7;
             // 
             // frmTriangulos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 128, 255);
-            ClientSize = new Size(391, 347);
-            Controls.Add(lblResultado);
-            Controls.Add(btnComprobarTriangulo);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(lblLado1);
-            Controls.Add(txtLado3);
-            Controls.Add(txtLado2);
-            Controls.Add(txtLado1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "frmTriangulos";
-            Text = "frmTriangulos";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(391, 347);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.btnComprobarTriangulo);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblLado1);
+            this.Controls.Add(this.txtLado3);
+            this.Controls.Add(this.txtLado2);
+            this.Controls.Add(this.txtLado1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "frmTriangulos";
+            this.Text = "frmTriangulos";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
