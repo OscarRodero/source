@@ -76,5 +76,10 @@ namespace Controles
         {
             OpenChildForm(new frmGamaColores());
         }
+
+        private void btnImagenes_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmImagenes());
+        }
     }
 }

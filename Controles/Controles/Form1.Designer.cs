@@ -69,6 +69,7 @@
             this.btnImagenes.TabIndex = 9;
             this.btnImagenes.Text = "10 Imágenes";
             this.btnImagenes.UseVisualStyleBackColor = true;
+            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
             // 
             // btnGama
             // 
@@ -78,6 +79,7 @@
             this.btnGama.TabIndex = 8;
             this.btnGama.Text = "09 Gama Colores";
             this.btnGama.UseVisualStyleBackColor = true;
+            this.btnGama.Click += new System.EventHandler(this.btnGama_Click);
             // 
             // btnTemporizador
             // 
@@ -87,6 +89,7 @@
             this.btnTemporizador.TabIndex = 7;
             this.btnTemporizador.Text = "08 Temporizador";
             this.btnTemporizador.UseVisualStyleBackColor = true;
+            this.btnTemporizador.Click += new System.EventHandler(this.btnTemporizador_Click);
             // 
             // btnCalendarios
             // 
@@ -96,6 +99,7 @@
             this.btnCalendarios.TabIndex = 6;
             this.btnCalendarios.Text = "07 Calendarios";
             this.btnCalendarios.UseVisualStyleBackColor = true;
+            this.btnCalendarios.Click += new System.EventHandler(this.btnCalendarios_Click);
             // 
             // btnComboBox
             // 
@@ -105,6 +109,7 @@
             this.btnComboBox.TabIndex = 5;
             this.btnComboBox.Text = "06 ComboBox";
             this.btnComboBox.UseVisualStyleBackColor = true;
+            this.btnComboBox.Click += new System.EventHandler(this.btnComboBox_Click);
             // 
             // btnCajas
             // 
@@ -114,6 +119,7 @@
             this.btnCajas.TabIndex = 4;
             this.btnCajas.Text = "05 Cajas";
             this.btnCajas.UseVisualStyleBackColor = true;
+            this.btnCajas.Click += new System.EventHandler(this.btnCajas_Click);
             // 
             // btnListas
             // 
@@ -123,6 +129,7 @@
             this.btnListas.TabIndex = 3;
             this.btnListas.Text = "04 Listas";
             this.btnListas.UseVisualStyleBackColor = true;
+            this.btnListas.Click += new System.EventHandler(this.btnListas_Click);
             // 
             // btnColores
             // 
@@ -142,6 +149,7 @@
             this.btnTriangulos.TabIndex = 1;
             this.btnTriangulos.Text = "02 Triángulos";
             this.btnTriangulos.UseVisualStyleBackColor = true;
+            this.btnTriangulos.Click += new System.EventHandler(this.btnTriangulos_Click);
             // 
             // btnTextBox
             // 
@@ -151,6 +159,7 @@
             this.btnTextBox.TabIndex = 0;
             this.btnTextBox.Text = "01 TextBox";
             this.btnTextBox.UseVisualStyleBackColor = true;
+            this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
             // 
             // Form1
             // 
