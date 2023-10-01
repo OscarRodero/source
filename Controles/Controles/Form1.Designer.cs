@@ -39,12 +39,14 @@
             this.btnColores = new System.Windows.Forms.Button();
             this.btnTriangulos = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
+            this.txtLog = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.txtLog);
             this.panel1.Controls.Add(this.btnImagenes);
             this.panel1.Controls.Add(this.btnGama);
             this.panel1.Controls.Add(this.btnTemporizador);
@@ -58,7 +60,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 450);
+            this.panel1.Size = new System.Drawing.Size(200, 653);
             this.panel1.TabIndex = 0;
             // 
             // btnImagenes
@@ -161,16 +163,24 @@
             this.btnTextBox.UseVisualStyleBackColor = true;
             this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
             // 
+            // txtLog
+            // 
+            this.txtLog.Location = new System.Drawing.Point(80, 457);
+            this.txtLog.Name = "txtLog";
+            this.txtLog.Size = new System.Drawing.Size(100, 23);
+            this.txtLog.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1147, 653);
             this.Controls.Add(this.panel1);
             this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -188,5 +198,6 @@
         private Button btnColores;
         private Button btnTriangulos;
         private Button btnTextBox;
+        private TextBox txtLog;
     }
 }

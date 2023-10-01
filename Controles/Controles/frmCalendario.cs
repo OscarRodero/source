@@ -16,5 +16,15 @@ namespace Controles
         {
             InitializeComponent();
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            mcCalendario.SelectionStart = this.dtpCalendario.Value;
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            this.dtpCalendario.Value = mcCalendario.SelectionStart;
+        }
     }
 }

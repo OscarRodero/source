@@ -31,7 +31,9 @@ namespace Controles
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            cb1.Items.Add(txtAddTexto.Text);
+            cb2.Items.Add(txtAddTexto.Text);
+            cb3.Items.Add(txtAddTexto.Text);
         }
 
         private void cb1_SelectedIndexChanged(object sender, EventArgs e)
