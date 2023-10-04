@@ -28,379 +28,389 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
-            menuStrip1 = new MenuStrip();
-            acuerdoEmpresaToolStripMenuItem = new ToolStripMenuItem();
-            preciosToolStripMenuItem = new ToolStripMenuItem();
-            salirToolStripMenuItem = new ToolStripMenuItem();
-            pBox = new PictureBox();
-            label1 = new Label();
-            listaDestinos = new ListBox();
-            imageList1 = new ImageList(components);
-            label2 = new Label();
-            chklstbox = new CheckedListBox();
-            label3 = new Label();
-            mcCalendario = new MonthCalendar();
-            groupBox1 = new GroupBox();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            btnCalcular = new Button();
-            txtResumen = new TextBox();
-            groupBox2 = new GroupBox();
-            btnValidar = new Button();
-            numericUpDown1 = new NumericUpDown();
-            numericUpDown2 = new NumericUpDown();
-            label4 = new Label();
-            label5 = new Label();
-            toolStrip1 = new ToolStrip();
-            statusStrip1 = new StatusStrip();
-            toolStripStatusLabel2 = new ToolStripStatusLabel();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
-            pb = new ToolStripProgressBar();
-            toolStripStatusLabel4 = new ToolStripStatusLabel();
-            reloj = new ToolStripStatusLabel();
-            contador = new System.Windows.Forms.Timer(components);
-            lblTotal = new Label();
-            menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pBox).BeginInit();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
-            statusStrip1.SuspendLayout();
-            SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.acuerdoEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.preciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pBox = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.listaDestinos = new System.Windows.Forms.ListBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.chklstbox = new System.Windows.Forms.CheckedListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.mcCalendario = new System.Windows.Forms.MonthCalendar();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.txtResumen = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.btnValidar = new System.Windows.Forms.Button();
+            this.cantPersonas = new System.Windows.Forms.NumericUpDown();
+            this.cantEstrellas = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.pb = new System.Windows.Forms.ToolStripProgressBar();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.reloj = new System.Windows.Forms.ToolStripStatusLabel();
+            this.contador = new System.Windows.Forms.Timer(this.components);
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cantPersonas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantEstrellas)).BeginInit();
+            this.statusStrip1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { acuerdoEmpresaToolStripMenuItem, preciosToolStripMenuItem, salirToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acuerdoEmpresaToolStripMenuItem,
+            this.preciosToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // acuerdoEmpresaToolStripMenuItem
             // 
-            acuerdoEmpresaToolStripMenuItem.Name = "acuerdoEmpresaToolStripMenuItem";
-            acuerdoEmpresaToolStripMenuItem.Size = new Size(112, 20);
-            acuerdoEmpresaToolStripMenuItem.Text = "Acuerdo Empresa";
-            acuerdoEmpresaToolStripMenuItem.Click += acuerdoEmpresaToolStripMenuItem_Click;
+            this.acuerdoEmpresaToolStripMenuItem.Name = "acuerdoEmpresaToolStripMenuItem";
+            this.acuerdoEmpresaToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
+            this.acuerdoEmpresaToolStripMenuItem.Text = "Acuerdo Empresa";
             // 
             // preciosToolStripMenuItem
             // 
-            preciosToolStripMenuItem.Name = "preciosToolStripMenuItem";
-            preciosToolStripMenuItem.Size = new Size(57, 20);
-            preciosToolStripMenuItem.Text = "Precios";
-            preciosToolStripMenuItem.Click += preciosToolStripMenuItem_Click;
+            this.preciosToolStripMenuItem.Name = "preciosToolStripMenuItem";
+            this.preciosToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.preciosToolStripMenuItem.Text = "Precios";
             // 
             // salirToolStripMenuItem
             // 
-            salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(41, 20);
-            salirToolStripMenuItem.Text = "Salir";
-            salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
             // 
             // pBox
             // 
-            pBox.Location = new Point(30, 52);
-            pBox.Name = "pBox";
-            pBox.Size = new Size(242, 183);
-            pBox.TabIndex = 1;
-            pBox.TabStop = false;
+            this.pBox.Location = new System.Drawing.Point(30, 52);
+            this.pBox.Name = "pBox";
+            this.pBox.Size = new System.Drawing.Size(242, 183);
+            this.pBox.TabIndex = 1;
+            this.pBox.TabStop = false;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.MediumTurquoise;
-            label1.Location = new Point(294, 52);
-            label1.Name = "label1";
-            label1.Size = new Size(94, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Elige un destino:";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.label1.Location = new System.Drawing.Point(294, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Elige un destino:";
             // 
             // listaDestinos
             // 
-            listaDestinos.FormattingEnabled = true;
-            listaDestinos.ItemHeight = 15;
-            listaDestinos.Location = new Point(294, 70);
-            listaDestinos.Name = "listaDestinos";
-            listaDestinos.Size = new Size(94, 109);
-            listaDestinos.TabIndex = 3;
-            listaDestinos.SelectedIndexChanged += listaDestinos_SelectedIndexChanged;
+            this.listaDestinos.FormattingEnabled = true;
+            this.listaDestinos.ItemHeight = 15;
+            this.listaDestinos.Location = new System.Drawing.Point(294, 70);
+            this.listaDestinos.Name = "listaDestinos";
+            this.listaDestinos.Size = new System.Drawing.Size(94, 109);
+            this.listaDestinos.TabIndex = 3;
             // 
             // imageList1
             // 
-            imageList1.ColorDepth = ColorDepth.Depth32Bit;
-            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
-            imageList1.TransparentColor = Color.Transparent;
-            imageList1.Images.SetKeyName(0, "ciudad.jpg");
-            imageList1.Images.SetKeyName(1, "montaña.jpg");
-            imageList1.Images.SetKeyName(2, "playa.jpg");
-            imageList1.Images.SetKeyName(3, "tour.jpg");
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "ciudad.jpg");
+            this.imageList1.Images.SetKeyName(1, "montaña.jpg");
+            this.imageList1.Images.SetKeyName(2, "playa.jpg");
+            this.imageList1.Images.SetKeyName(3, "tour.jpg");
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.MediumTurquoise;
-            label2.Location = new Point(643, 52);
-            label2.Name = "label2";
-            label2.Size = new Size(100, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Actividades Extra:";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.label2.Location = new System.Drawing.Point(643, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Actividades Extra:";
             // 
             // chklstbox
             // 
-            chklstbox.FormattingEnabled = true;
-            chklstbox.Items.AddRange(new object[] { "Cena y Espectáculo", "Excursiones", "Lavandería", "NaturAventura", "Spa" });
-            chklstbox.Location = new Point(630, 70);
-            chklstbox.Name = "chklstbox";
-            chklstbox.Size = new Size(138, 112);
-            chklstbox.TabIndex = 5;
+            this.chklstbox.FormattingEnabled = true;
+            this.chklstbox.Items.AddRange(new object[] {
+            "Cena y Espectáculo",
+            "Excursiones",
+            "Lavandería",
+            "NaturAventura",
+            "Spa"});
+            this.chklstbox.Location = new System.Drawing.Point(630, 70);
+            this.chklstbox.Name = "chklstbox";
+            this.chklstbox.Size = new System.Drawing.Size(138, 112);
+            this.chklstbox.TabIndex = 5;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.MediumTurquoise;
-            label3.Location = new Point(294, 187);
-            label3.Name = "label3";
-            label3.Size = new Size(41, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Fecha:";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.label3.Location = new System.Drawing.Point(294, 187);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Fecha:";
             // 
             // mcCalendario
             // 
-            mcCalendario.Location = new Point(294, 211);
-            mcCalendario.Name = "mcCalendario";
-            mcCalendario.TabIndex = 7;
+            this.mcCalendario.Location = new System.Drawing.Point(294, 211);
+            this.mcCalendario.Name = "mcCalendario";
+            this.mcCalendario.TabIndex = 7;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(radioButton3);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(77, 241);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(142, 132);
-            groupBox1.TabIndex = 8;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Tipo de Estancia";
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Location = new System.Drawing.Point(77, 241);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(142, 132);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Tipo de Estancia";
             // 
             // radioButton3
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(10, 80);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(122, 19);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Pensión Completa";
-            radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(10, 80);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(122, 19);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Pensión Completa";
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(10, 55);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(103, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Media Pensión";
-            radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(10, 55);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(103, 19);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Media Pensión";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(10, 30);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(88, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Sólo Dormir";
-            radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(10, 30);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(88, 19);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Sólo Dormir";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(55, 379);
-            btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(182, 23);
-            btnCalcular.TabIndex = 9;
-            btnCalcular.Text = "Calcular";
-            btnCalcular.UseVisualStyleBackColor = true;
-            btnCalcular.Click += btnCalcular_Click;
+            this.btnCalcular.Location = new System.Drawing.Point(55, 379);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(182, 23);
+            this.btnCalcular.TabIndex = 9;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click_1);
             // 
             // txtResumen
             // 
-            txtResumen.Location = new Point(6, 6);
-            txtResumen.Multiline = true;
-            txtResumen.Name = "txtResumen";
-            txtResumen.Size = new Size(294, 95);
-            txtResumen.TabIndex = 11;
+            this.txtResumen.Enabled = false;
+            this.txtResumen.Location = new System.Drawing.Point(6, 6);
+            this.txtResumen.Multiline = true;
+            this.txtResumen.Name = "txtResumen";
+            this.txtResumen.Size = new System.Drawing.Size(294, 95);
+            this.txtResumen.TabIndex = 11;
             // 
             // groupBox2
             // 
-            groupBox2.BackColor = Color.PaleTurquoise;
-            groupBox2.Controls.Add(lblTotal);
-            groupBox2.Controls.Add(btnValidar);
-            groupBox2.Controls.Add(txtResumen);
-            groupBox2.Location = new Point(294, 379);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(306, 134);
-            groupBox2.TabIndex = 12;
-            groupBox2.TabStop = false;
-            // 
-            // btnValidar
-            // 
-            btnValidar.Location = new Point(225, 107);
-            btnValidar.Name = "btnValidar";
-            btnValidar.Size = new Size(75, 23);
-            btnValidar.TabIndex = 12;
-            btnValidar.Text = "Validar";
-            btnValidar.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            numericUpDown1.Location = new Point(601, 224);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(36, 23);
-            numericUpDown1.TabIndex = 13;
-            // 
-            // numericUpDown2
-            // 
-            numericUpDown2.Location = new Point(601, 281);
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(36, 23);
-            numericUpDown2.TabIndex = 14;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.MediumTurquoise;
-            label4.Location = new Point(645, 232);
-            label4.Name = "label4";
-            label4.Size = new Size(54, 15);
-            label4.TabIndex = 15;
-            label4.Text = "Personas";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.MediumTurquoise;
-            label5.Location = new Point(645, 289);
-            label5.Name = "label5";
-            label5.Size = new Size(98, 15);
-            label5.TabIndex = 16;
-            label5.Text = "Estrellas del hotel";
-            // 
-            // toolStrip1
-            // 
-            toolStrip1.Location = new Point(0, 24);
-            toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(800, 25);
-            toolStrip1.TabIndex = 17;
-            toolStrip1.Text = "toolStrip1";
-            // 
-            // statusStrip1
-            // 
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel2, toolStripStatusLabel1, pb, toolStripStatusLabel4, reloj });
-            statusStrip1.Location = new Point(0, 525);
-            statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 22);
-            statusStrip1.TabIndex = 18;
-            statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel2
-            // 
-            toolStripStatusLabel2.BackColor = Color.Transparent;
-            toolStripStatusLabel2.Image = (Image)resources.GetObject("toolStripStatusLabel2.Image");
-            toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            toolStripStatusLabel2.Size = new Size(16, 17);
-            // 
-            // toolStripStatusLabel1
-            // 
-            toolStripStatusLabel1.BackColor = Color.Transparent;
-            toolStripStatusLabel1.IsLink = true;
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(165, 17);
-            toolStripStatusLabel1.Text = "viajeconnosotros@gmail.com";
-            // 
-            // pb
-            // 
-            pb.Name = "pb";
-            pb.Size = new Size(250, 16);
-            // 
-            // toolStripStatusLabel4
-            // 
-            toolStripStatusLabel4.BackColor = Color.Transparent;
-            toolStripStatusLabel4.ForeColor = Color.Transparent;
-            toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            toolStripStatusLabel4.Size = new Size(181, 17);
-            toolStripStatusLabel4.Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-            // 
-            // reloj
-            // 
-            reloj.BackColor = Color.Transparent;
-            reloj.Image = (Image)resources.GetObject("reloj.Image");
-            reloj.Name = "reloj";
-            reloj.Size = new Size(65, 17);
-            reloj.Text = "00:00:00";
-            // 
-            // contador
-            // 
-            contador.Enabled = true;
-            contador.Interval = 1000;
-            contador.Tick += contador_Tick;
+            this.groupBox2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.groupBox2.Controls.Add(this.lblTotal);
+            this.groupBox2.Controls.Add(this.btnValidar);
+            this.groupBox2.Controls.Add(this.txtResumen);
+            this.groupBox2.Location = new System.Drawing.Point(294, 379);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(306, 134);
+            this.groupBox2.TabIndex = 12;
+            this.groupBox2.TabStop = false;
             // 
             // lblTotal
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(6, 111);
-            lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(13, 15);
-            lblTotal.TabIndex = 13;
-            lblTotal.Text = "0";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(6, 111);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(13, 15);
+            this.lblTotal.TabIndex = 13;
+            this.lblTotal.Text = "0";
+            // 
+            // btnValidar
+            // 
+            this.btnValidar.Location = new System.Drawing.Point(225, 107);
+            this.btnValidar.Name = "btnValidar";
+            this.btnValidar.Size = new System.Drawing.Size(75, 23);
+            this.btnValidar.TabIndex = 12;
+            this.btnValidar.Text = "Validar";
+            this.btnValidar.UseVisualStyleBackColor = true;
+            // 
+            // cantPersonas
+            // 
+            this.cantPersonas.Location = new System.Drawing.Point(601, 224);
+            this.cantPersonas.Name = "cantPersonas";
+            this.cantPersonas.Size = new System.Drawing.Size(36, 23);
+            this.cantPersonas.TabIndex = 13;
+            // 
+            // cantEstrellas
+            // 
+            this.cantEstrellas.Location = new System.Drawing.Point(601, 281);
+            this.cantEstrellas.Name = "cantEstrellas";
+            this.cantEstrellas.Size = new System.Drawing.Size(36, 23);
+            this.cantEstrellas.TabIndex = 14;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.label4.Location = new System.Drawing.Point(645, 232);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 15);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Personas";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.label5.Location = new System.Drawing.Point(645, 289);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 15);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Estrellas del hotel";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.TabIndex = 17;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel2,
+            this.toolStripStatusLabel1,
+            this.pb,
+            this.toolStripStatusLabel4,
+            this.reloj});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 525);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
+            this.statusStrip1.TabIndex = 18;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripStatusLabel2.Image")));
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(16, 17);
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel1.IsLink = true;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(165, 17);
+            this.toolStripStatusLabel1.Text = "viajeconnosotros@gmail.com";
+            // 
+            // pb
+            // 
+            this.pb.Name = "pb";
+            this.pb.Size = new System.Drawing.Size(250, 16);
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel4.ForeColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(181, 17);
+            this.toolStripStatusLabel4.Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+            // 
+            // reloj
+            // 
+            this.reloj.BackColor = System.Drawing.Color.Transparent;
+            this.reloj.Image = ((System.Drawing.Image)(resources.GetObject("reloj.Image")));
+            this.reloj.Name = "reloj";
+            this.reloj.Size = new System.Drawing.Size(65, 17);
+            this.reloj.Text = "00:00:00";
+            // 
+            // contador
+            // 
+            this.contador.Enabled = true;
+            this.contador.Interval = 1000;
             // 
             // frmPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Teal;
-            ClientSize = new Size(800, 547);
-            Controls.Add(statusStrip1);
-            Controls.Add(toolStrip1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(numericUpDown2);
-            Controls.Add(numericUpDown1);
-            Controls.Add(groupBox2);
-            Controls.Add(btnCalcular);
-            Controls.Add(groupBox1);
-            Controls.Add(mcCalendario);
-            Controls.Add(label3);
-            Controls.Add(chklstbox);
-            Controls.Add(label2);
-            Controls.Add(listaDestinos);
-            Controls.Add(label1);
-            Controls.Add(pBox);
-            Controls.Add(menuStrip1);
-            FormBorderStyle = FormBorderStyle.None;
-            MainMenuStrip = menuStrip1;
-            Name = "frmPrincipal";
-            Text = "frmPrincipal";
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pBox).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
-            statusStrip1.ResumeLayout(false);
-            statusStrip1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
+            this.ClientSize = new System.Drawing.Size(800, 547);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cantEstrellas);
+            this.Controls.Add(this.cantPersonas);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.mcCalendario);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.chklstbox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.listaDestinos);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pBox);
+            this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "frmPrincipal";
+            this.Text = "frmPrincipal";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cantPersonas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantEstrellas)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -425,8 +435,8 @@
         private TextBox txtResumen;
         private GroupBox groupBox2;
         private Button btnValidar;
-        private NumericUpDown numericUpDown1;
-        private NumericUpDown numericUpDown2;
+        private NumericUpDown cantPersonas;
+        private NumericUpDown cantEstrellas;
         private Label label4;
         private Label label5;
         private ToolStrip toolStrip1;

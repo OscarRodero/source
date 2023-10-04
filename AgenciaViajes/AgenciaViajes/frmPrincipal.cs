@@ -58,7 +58,13 @@ namespace AgenciaViajes
             txtResumen.Text = elementoSeleccionado + Environment.NewLine + textoActual;
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
+        private void contador_Tick(object sender, EventArgs e)
+        {
+            DateTime horaActual = DateTime.Now;
+            reloj.Text = horaActual.ToString("HH:mm:ss");
+        }
+
+        private void btnCalcular_Click_1(object sender, EventArgs e)
         {
             pb.Value = 0;
             pb.Maximum = 100;
@@ -68,12 +74,33 @@ namespace AgenciaViajes
                 System.Threading.Thread.Sleep(50);
                 Application.DoEvents();
             }
-        }
+            string destino = listaDestinos.SelectedItem.ToString();
+            string tipoEstancia;
+            string fecha = mcCalendario.SelectionStart.ToString();
+            string numPersonas = cantPersonas.ToString();
+            string numEstrellas = cantEstrellas.ToString();
+            string Adicionales;
+            foreach (Control control in groupBox1.Controls)
+            {
+                if (control is RadioButton)
+                {
+                    RadioButton radioButton = (RadioButton)control;
+                    if (radioButton.Checked)
+                    {
+                        string radioButtonTexto = radioButton.Text;
+                        tipoEstancia = radioButtonTexto;
+                    }
+                }
+            }
 
-        private void contador_Tick(object sender, EventArgs e)
-        {
-            DateTime horaActual = DateTime.Now;
-            reloj.Text = horaActual.ToString("HH:mm:ss");
+            for (int i = 0; i < chklstbox.Items.Count; i++)
+            {
+                if (chklstbox.GetItemChecked(i))
+                {
+                    string textoMarcado = chklstbox.GetItemText(chklstbox.Items[i]);
+                    
+                }
+            }
         }
     }
 }

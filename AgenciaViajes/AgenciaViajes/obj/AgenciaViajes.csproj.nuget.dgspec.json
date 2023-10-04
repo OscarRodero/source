@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam201\\Desktop\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj": {}
+    "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam201\\Desktop\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj": {
+    "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam201\\Desktop\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj",
+        "projectUniqueName": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj",
         "projectName": "AgenciaViajes",
-        "projectPath": "C:\\Users\\dam201\\Desktop\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj",
-        "packagesPath": "C:\\Users\\dam201\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam201\\Desktop\\AgenciaViajes\\AgenciaViajes\\obj\\",
+        "projectPath": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\AgenciaViajes\\AgenciaViajes\\AgenciaViajes.csproj",
+        "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+        "outputPath": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\AgenciaViajes\\AgenciaViajes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dam201\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
