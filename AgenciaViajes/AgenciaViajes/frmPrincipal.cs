@@ -98,9 +98,14 @@ namespace AgenciaViajes
                 if (chklstbox.GetItemChecked(i))
                 {
                     string textoMarcado = chklstbox.GetItemText(chklstbox.Items[i]);
-                    
+
                 }
             }
+        }
+
+        private void btnValidar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
