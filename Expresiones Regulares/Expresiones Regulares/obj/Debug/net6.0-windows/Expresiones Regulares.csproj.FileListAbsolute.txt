@@ -1,0 +1,16 @@
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\bin\Debug\net6.0-windows\Expresiones Regulares.exe
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\bin\Debug\net6.0-windows\Expresiones Regulares.deps.json
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\bin\Debug\net6.0-windows\Expresiones Regulares.runtimeconfig.json
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\bin\Debug\net6.0-windows\Expresiones Regulares.dll
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\bin\Debug\net6.0-windows\Expresiones Regulares.pdb
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones_Regulares.Form1.resources
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.csproj.GenerateResource.cache
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.AssemblyInfoInputs.cache
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.AssemblyInfo.cs
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.dll
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\refint\Expresiones Regulares.dll
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.pdb
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\Expresiones Regulares.genruntimeconfig.cache
+C:\Users\dam201\Desktop\Expresiones Regulares\Expresiones Regulares\obj\Debug\net6.0-windows\ref\Expresiones Regulares.dll
