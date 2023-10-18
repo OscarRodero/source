@@ -1,0 +1,11 @@
+C:\Users\dam201\source\VideoClub\VideoClub\bin\Debug\VideoClub.exe.config
+C:\Users\dam201\source\VideoClub\VideoClub\bin\Debug\VideoClub.exe
+C:\Users\dam201\source\VideoClub\VideoClub\bin\Debug\VideoClub.pdb
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.csproj.AssemblyReference.cache
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.FormLogin.resources
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.FormPeliculas.resources
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.Properties.Resources.resources
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.csproj.GenerateResource.cache
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.csproj.CoreCompileInputs.cache
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.exe
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.pdb
