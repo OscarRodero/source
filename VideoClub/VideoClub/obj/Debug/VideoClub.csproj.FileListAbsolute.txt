@@ -9,3 +9,4 @@ C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.csproj.GenerateRe
 C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.csproj.CoreCompileInputs.cache
 C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.exe
 C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.pdb
+C:\Users\dam201\source\VideoClub\VideoClub\obj\Debug\VideoClub.FormSocios.resources
