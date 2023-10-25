@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,26 +14,11 @@ namespace VideoClub
 {
     public partial class FormPeliculas : Form
     {
+        ArrayList lst_listaPelis = new ArrayList();
         public FormPeliculas()
         {
             InitializeComponent();
-        }
-
-        private void peliculasBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.peliculasBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsBD);
-
-        }
-
-        private void peliculasBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.peliculasBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsBD);
-
-        }
+        }       
 
         private void FormPeliculas_Load(object sender, EventArgs e)
         {
@@ -51,22 +37,6 @@ namespace VideoClub
             {
                 cbMostrarPeli.Items.Add(pelicula.titulo);
             }
-
-        }
-
-        private void peliculasBindingNavigatorSaveItem_Click_2(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.peliculasBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsBD);
-
-        }
-
-        private void peliculasBindingNavigatorSaveItem_Click_3(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.peliculasBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsBD);
 
         }
 
@@ -106,13 +76,26 @@ namespace VideoClub
                 }
 
             }
+            cargarComboPeliculasMalo();
+        }
+
+        private void cargarComboPeliculasBueno()
+        {
+            
         }
 
         private void cbMostrarPeli_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string titulo = cbMostrarPeli.SelectedItem.ToString();
-            dsBDTableAdapters.peliculasTableAdapter ListadoPelis = new dsBDTableAdapters.peliculasTableAdapter();
-            ListadoPelis.FillByTitulo(this.dsBD.peliculas, titulo);
+            //Método chapuza:
+            //string titulo = cbMostrarPeli.SelectedItem.ToString();
+            //dsBDTableAdapters.peliculasTableAdapter ListadoPelis = new dsBDTableAdapters.peliculasTableAdapter();
+            //ListadoPelis.FillByTitulo(this.dsBD.peliculas, titulo);
+
+            //Método regulinchi:
+            //int intIdPelicula = (int)lst_listaPelis[cbMostrarPeli.SelectedIndex];
+            //this.peliculasTableAdapter.FillByCodPeli(this.dsBD.peliculas, intIdPelicula);
+
+            //Método good:
 
         }
 
@@ -120,6 +103,20 @@ namespace VideoClub
         {
             dsBDTableAdapters.peliculasTableAdapter ListadoPelis = new dsBDTableAdapters.peliculasTableAdapter();
             ListadoPelis.Fill(this.dsBD.peliculas);
+            cargarComboPeliculasMalo();
+        }
+        private void peliculasBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.peliculasBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dsBD);
+            cargarComboPeliculasMalo();
+        }
+        private void cargarComboPeliculasMalo() { 
+            cbMostrarPeli.Items.Clear();
+            foreach (var peli in this.dsBD.peliculas) { 
+                cbMostrarPeli.Items.Add(peli.titulo);
+            }
         }
     }
 }

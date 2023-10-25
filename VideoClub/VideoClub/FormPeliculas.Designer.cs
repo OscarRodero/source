@@ -331,7 +331,7 @@
             this.peliculasBindingNavigatorSaveItem.Name = "peliculasBindingNavigatorSaveItem";
             this.peliculasBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.peliculasBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.peliculasBindingNavigatorSaveItem.Click += new System.EventHandler(this.peliculasBindingNavigatorSaveItem_Click_3);
+            this.peliculasBindingNavigatorSaveItem.Click += new System.EventHandler(this.peliculasBindingNavigatorSaveItem_Click);
             // 
             // cbMostrarPeli
             // 
