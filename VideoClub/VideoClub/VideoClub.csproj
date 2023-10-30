@@ -52,6 +52,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsBD.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FormAlquileres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlquileres.Designer.cs">
+      <DependentUpon>FormAlquileres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscar.Designer.cs">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView.Designer.cs">
+      <DependentUpon>FormDataGridView.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +90,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAlquileres.resx">
+      <DependentUpon>FormAlquileres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscar.resx">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView.resx">
+      <DependentUpon>FormDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>

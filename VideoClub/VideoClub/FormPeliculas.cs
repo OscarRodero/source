@@ -14,7 +14,7 @@ namespace VideoClub
 {
     public partial class FormPeliculas : Form
     {
-        ArrayList lst_listaPelis = new ArrayList();
+        //ArrayList lst_listaPelis = new ArrayList();
         public FormPeliculas()
         {
             InitializeComponent();
@@ -33,10 +33,12 @@ namespace VideoClub
             // TODO: esta línea de código carga datos en la tabla 'dsBD.peliculas' Puede moverla o quitarla según sea necesario.
             this.peliculasTableAdapter.Fill(this.dsBD.peliculas);
 
-            foreach (var pelicula in dsBD.peliculas)
-            {
-                cbMostrarPeli.Items.Add(pelicula.titulo);
-            }
+            //foreach (var pelicula in dsBD.peliculas)
+            //{
+            //    cbMostrarPeli.Items.Add(pelicula.titulo);
+            //}
+
+            cargarComboPeliculasBueno();
 
         }
 
@@ -76,11 +78,18 @@ namespace VideoClub
                 }
 
             }
-            cargarComboPeliculasMalo();
+            //cargarComboPeliculasMalo();
+            cargarComboPeliculasBueno();
         }
 
         private void cargarComboPeliculasBueno()
         {
+            cbMostrarPeli.Items.Clear();
+            foreach(var peli in this.dsBD.peliculas)
+            {
+                ComboItem item = new ComboItem(peli.titulo, peli.codpeli);
+                cbMostrarPeli.Items.Add(item);
+            }
             
         }
 
@@ -96,27 +105,31 @@ namespace VideoClub
             //this.peliculasTableAdapter.FillByCodPeli(this.dsBD.peliculas, intIdPelicula);
 
             //Método good:
-
+            int intIdPelicula = (int)((ComboItem)cbMostrarPeli.SelectedItem).Value;
+            this.peliculasTableAdapter.FillByCodPeli(this.dsBD.peliculas, intIdPelicula);
         }
 
         private void btnMostrarTodas_Click(object sender, EventArgs e)
         {
             dsBDTableAdapters.peliculasTableAdapter ListadoPelis = new dsBDTableAdapters.peliculasTableAdapter();
             ListadoPelis.Fill(this.dsBD.peliculas);
-            cargarComboPeliculasMalo();
+            cbMostrarPeli.Text = string.Empty;
+            //cargarComboPeliculasMalo();
+            cargarComboPeliculasBueno();
         }
         private void peliculasBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
             this.peliculasBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.dsBD);
-            cargarComboPeliculasMalo();
+            //cargarComboPeliculasMalo();
+            cargarComboPeliculasBueno();
         }
-        private void cargarComboPeliculasMalo() { 
-            cbMostrarPeli.Items.Clear();
-            foreach (var peli in this.dsBD.peliculas) { 
-                cbMostrarPeli.Items.Add(peli.titulo);
-            }
-        }
+        //private void cargarComboPeliculasMalo() { 
+        //    cbMostrarPeli.Items.Clear();
+        //    foreach (var peli in this.dsBD.peliculas) { 
+        //        cbMostrarPeli.Items.Add(peli.titulo);
+        //    }
+        //}
     }
 }

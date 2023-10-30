@@ -8,18 +8,19 @@ namespace VideoClub
 {
     public class ComboItem
     {
-        public int Id { get; set; }
-        public string Value { get; set; }
+        public string Text { get; set; }
+        public object Value { get; set; }
 
-        public ComboItem(int id, string value)
+        public ComboItem(string text, object value)
         {
-            Id = id;
+            
+            Text = text;
             Value = value;
         }
 
         public override string ToString()
         {
-            return Value;
+            return Text;
         }
     }
 }
