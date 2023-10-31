@@ -37,7 +37,9 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApell1 = new System.Windows.Forms.TextBox();
             this.txtApell2 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGV = new System.Windows.Forms.DataGridView();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.idSocioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apell1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,9 +49,7 @@
             this.infoAlquileresBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.infoAlquileresTableAdapter = new VideoClub.dsBDTableAdapters.InfoAlquileresTableAdapter();
             this.sociosTableAdapter = new VideoClub.dsBDTableAdapters.sociosTableAdapter();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sociosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsBD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoAlquileresBindingSource)).BeginInit();
@@ -115,23 +115,46 @@
             this.txtApell2.Size = new System.Drawing.Size(165, 20);
             this.txtApell2.TabIndex = 7;
             // 
-            // dataGridView1
+            // DGV
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGV.AllowUserToAddRows = false;
+            this.DGV.AllowUserToDeleteRows = false;
+            this.DGV.AutoGenerateColumns = false;
+            this.DGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idSocioDataGridViewTextBoxColumn,
             this.nombreDataGridViewTextBoxColumn,
             this.apell1DataGridViewTextBoxColumn,
             this.apell2DataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.sociosBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 132);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(416, 166);
-            this.dataGridView1.TabIndex = 8;
+            this.DGV.DataSource = this.sociosBindingSource;
+            this.DGV.Location = new System.Drawing.Point(12, 132);
+            this.DGV.MultiSelect = false;
+            this.DGV.Name = "DGV";
+            this.DGV.ReadOnly = true;
+            this.DGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DGV.Size = new System.Drawing.Size(416, 166);
+            this.DGV.TabIndex = 8;
+            this.DGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_CellDoubleClick);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(27, 103);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(189, 23);
+            this.btnBuscar.TabIndex = 9;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(236, 103);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(182, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Mostrar Todos";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // idSocioDataGridViewTextBoxColumn
             // 
@@ -184,25 +207,6 @@
             // 
             this.sociosTableAdapter.ClearBeforeFill = true;
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(27, 103);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(189, 23);
-            this.btnBuscar.TabIndex = 9;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(236, 103);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Mostrar Todos";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // FormBuscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,7 +214,7 @@
             this.ClientSize = new System.Drawing.Size(440, 310);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGV);
             this.Controls.Add(this.txtApell2);
             this.Controls.Add(this.txtApell1);
             this.Controls.Add(this.txtNombre);
@@ -221,7 +225,7 @@
             this.Name = "FormBuscar";
             this.Text = "FormBuscar";
             this.Load += new System.EventHandler(this.FormBuscar_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sociosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsBD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoAlquileresBindingSource)).EndInit();
@@ -240,7 +244,7 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApell1;
         private System.Windows.Forms.TextBox txtApell2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGV;
         private dsBD dsBD;
         private System.Windows.Forms.BindingSource infoAlquileresBindingSource;
         private dsBDTableAdapters.InfoAlquileresTableAdapter infoAlquileresTableAdapter;

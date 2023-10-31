@@ -5922,7 +5922,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[4];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[5];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefon" +
@@ -5930,25 +5930,31 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT        idSocio, login, pwd\r\nFROM            socios\r\nWHERE        (login = " +
-                "@Param1)";
+            this._commandCollection[1].CommandText = "SELECT        idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, " +
+                "telefono, email\r\nFROM            socios\r\nWHERE        (idSocio = @Param1)";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.VarChar, 12, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "idSocio", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "SELECT        idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, " +
-                "telefono, email\r\nFROM            socios\r\nWHERE        (login = @Param1) AND (pwd" +
-                " = @Param2)";
+            this._commandCollection[2].CommandText = "SELECT        idSocio, login, pwd\r\nFROM            socios\r\nWHERE        (login = " +
+                "@Param1)";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.VarChar, 12, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param2", global::System.Data.SqlDbType.VarChar, 12, global::System.Data.ParameterDirection.Input, 0, 0, "pwd", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[3].Connection = this.Connection;
             this._commandCollection[3].CommandText = "SELECT        idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, " +
+                "telefono, email\r\nFROM            socios\r\nWHERE        (login = @Param1) AND (pwd" +
+                " = @Param2)";
+            this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.VarChar, 12, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param2", global::System.Data.SqlDbType.VarChar, 12, global::System.Data.ParameterDirection.Input, 0, 0, "pwd", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[4].Connection = this.Connection;
+            this._commandCollection[4].CommandText = "SELECT        idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, " +
                 "telefono, email\r\nFROM            socios\r\nWHERE        (nombre = @Param1)\r\nORDER " +
                 "BY apell1, apell2, nombre";
-            this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.VarChar, 80, global::System.Data.ParameterDirection.Input, 0, 0, "nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Param1", global::System.Data.SqlDbType.VarChar, 80, global::System.Data.ParameterDirection.Input, 0, 0, "nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5979,8 +5985,34 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillByLogin(dsBD.sociosDataTable dataTable, string Param1) {
+        public virtual int FillByIDSOCIO(dsBD.sociosDataTable dataTable, int Param1) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(Param1));
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual dsBD.sociosDataTable GetDataByIDSOCIO(int Param1) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(Param1));
+            dsBD.sociosDataTable dataTable = new dsBD.sociosDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByLogin(dsBD.sociosDataTable dataTable, string Param1) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -5999,7 +6031,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual dsBD.sociosDataTable GetDataByLogin(string Param1) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -6016,7 +6048,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
         public virtual int FillByLoginPW(dsBD.sociosDataTable dataTable, string Param1, string Param2) {
-            this.Adapter.SelectCommand = this.CommandCollection[2];
+            this.Adapter.SelectCommand = this.CommandCollection[3];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -6041,7 +6073,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual dsBD.sociosDataTable GetDataByLoginPW(string Param1, string Param2) {
-            this.Adapter.SelectCommand = this.CommandCollection[2];
+            this.Adapter.SelectCommand = this.CommandCollection[3];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -6064,7 +6096,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
         public virtual int FillByNombre(dsBD.sociosDataTable dataTable, string Param1) {
-            this.Adapter.SelectCommand = this.CommandCollection[3];
+            this.Adapter.SelectCommand = this.CommandCollection[4];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -6083,7 +6115,7 @@ SELECT idSocio, login, pwd, nombre, apell1, apell2, direccion, localidad, telefo
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual dsBD.sociosDataTable GetDataByNombre(string Param1) {
-            this.Adapter.SelectCommand = this.CommandCollection[3];
+            this.Adapter.SelectCommand = this.CommandCollection[4];
             if ((Param1 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
