@@ -1,0 +1,15 @@
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\VideoClubLinQ.exe.config
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\VideoClubLinQ.exe
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\VideoClubLinQ.pdb
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\EntityFramework.dll
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\EntityFramework.xml
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.csproj.AssemblyReference.cache
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.Form1.resources
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.Properties.Resources.resources
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.csproj.GenerateResource.cache
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.csproj.CoreCompileInputs.cache
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.csproj.CopyComplete
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.exe
+C:\Users\dam201\source\VideoClubLinQ\VideoClubLinQ\obj\Debug\VideoClubLinQ.pdb

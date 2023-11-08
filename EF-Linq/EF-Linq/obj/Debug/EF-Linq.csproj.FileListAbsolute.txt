@@ -1,0 +1,15 @@
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EF-Linq.exe.config
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EF-Linq.exe
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EF-Linq.pdb
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.csproj.AssemblyReference.cache
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF_Linq.Form1.resources
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF_Linq.Properties.Resources.resources
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.csproj.GenerateResource.cache
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.csproj.CoreCompileInputs.cache
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.exe
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.pdb
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EntityFramework.dll
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EntityFramework.xml
+C:\Users\dam201\source\EF-Linq\EF-Linq\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam201\source\EF-Linq\EF-Linq\obj\Debug\EF-Linq.csproj.CopyComplete
