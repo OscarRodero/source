@@ -1,0 +1,15 @@
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\ConsultasAvanzadas.exe.config
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\ConsultasAvanzadas.exe
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\ConsultasAvanzadas.pdb
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\EntityFramework.dll
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\EntityFramework.xml
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.csproj.AssemblyReference.cache
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.Form1.resources
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.Properties.Resources.resources
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.csproj.GenerateResource.cache
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.csproj.CoreCompileInputs.cache
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.csproj.CopyComplete
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.exe
+C:\Users\dam201\source\ConsultasAvanzadas\ConsultasAvanzadas\obj\Debug\ConsultasAvanzadas.pdb
