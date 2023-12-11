@@ -55,6 +55,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsBD.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Extensiones.cs" />
     <Compile Include="FormAlquileres.cs">
       <SubType>Form</SubType>
     </Compile>

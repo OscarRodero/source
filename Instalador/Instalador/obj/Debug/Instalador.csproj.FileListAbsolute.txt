@@ -1,0 +1,16 @@
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\EntityFramework.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\EntityFramework.xml
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.csproj.AssemblyReference.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.Form1.resources
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.Properties.Resources.resources
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.csproj.GenerateResource.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\Instalador.csproj.CopyComplete
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\InstaladorDeInstalador.exe.config
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\InstaladorDeInstalador.exe
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\InstaladorDeInstalador.pdb
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\InstaladorDeInstalador.exe
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\obj\Debug\InstaladorDeInstalador.pdb
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\Instalador\Instalador\bin\Debug\InstaladorDeInstalador.xml

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6e86ddd3999419a9cf9c5e7bbf1bea4" Name="Diagram1">
+        <EntityTypeShape EntityType="bd_reservasModel.DEPORTES" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_reservasModel.FRANJAS_HORARIAS" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_reservasModel.PISTAS" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_reservasModel.RESERVAS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_reservasModel.USUARIOS" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="bd_reservasModel.pistas_fk_dep" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_reservasModel.reservas_fk_frj" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_reservasModel.reservas_fk_pst" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_reservasModel.reservas_fk_usu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

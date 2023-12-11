@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="bd_reservasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DEPORTES">
+          <Key>
+            <PropertyRef Name="Id_deporte" />
+          </Key>
+          <Property Name="Id_deporte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FRANJAS_HORARIAS">
+          <Key>
+            <PropertyRef Name="Id_franja" />
+          </Key>
+          <Property Name="Id_franja" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Hora_inicio" Type="time" Precision="7" Nullable="false" />
+          <Property Name="Hora_fin" Type="time" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PISTAS">
+          <Key>
+            <PropertyRef Name="Id_pista" />
+          </Key>
+          <Property Name="Id_pista" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Aforo" Type="int" Nullable="false" />
+          <Property Name="Foto" Type="image" />
+          <Property Name="Deporte" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RESERVAS">
+          <Key>
+            <PropertyRef Name="Id_reserva" />
+          </Key>
+          <Property Name="Id_reserva" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Usuario" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="Pista" Type="int" Nullable="false" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Franja" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="Dni" />
+          </Key>
+          <Property Name="Dni" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido1" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido2" Type="varchar" MaxLength="50" />
+          <Property Name="Telefono" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Contrasena" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Administrador" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="pistas_fk_dep">
+          <End Role="DEPORTES" Type="Self.DEPORTES" Multiplicity="1" />
+          <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DEPORTES">
+              <PropertyRef Name="Id_deporte" />
+            </Principal>
+            <Dependent Role="PISTAS">
+              <PropertyRef Name="Deporte" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_frj">
+          <End Role="FRANJAS_HORARIAS" Type="Self.FRANJAS_HORARIAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FRANJAS_HORARIAS">
+              <PropertyRef Name="Id_franja" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Franja" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_pst">
+          <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PISTAS">
+              <PropertyRef Name="Id_pista" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Pista" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_usu">
+          <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Dni" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bd_reservasModelStoreContainer">
+          <EntitySet Name="DEPORTES" EntityType="Self.DEPORTES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FRANJAS_HORARIAS" EntityType="Self.FRANJAS_HORARIAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PISTAS" EntityType="Self.PISTAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RESERVAS" EntityType="Self.RESERVAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="pistas_fk_dep" Association="Self.pistas_fk_dep">
+            <End Role="DEPORTES" EntitySet="DEPORTES" />
+            <End Role="PISTAS" EntitySet="PISTAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_frj" Association="Self.reservas_fk_frj">
+            <End Role="FRANJAS_HORARIAS" EntitySet="FRANJAS_HORARIAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_pst" Association="Self.reservas_fk_pst">
+            <End Role="PISTAS" EntitySet="PISTAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_usu" Association="Self.reservas_fk_usu">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bd_reservasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DEPORTES">
+          <Key>
+            <PropertyRef Name="Id_deporte" />
+          </Key>
+          <Property Name="Id_deporte" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="PISTAS" Relationship="Self.pistas_fk_dep" FromRole="DEPORTES" ToRole="PISTAS" />
+        </EntityType>
+        <EntityType Name="FRANJAS_HORARIAS">
+          <Key>
+            <PropertyRef Name="Id_franja" />
+          </Key>
+          <Property Name="Id_franja" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Hora_inicio" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="Hora_fin" Type="Time" Nullable="false" Precision="7" />
+          <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_frj" FromRole="FRANJAS_HORARIAS" ToRole="RESERVAS" />
+        </EntityType>
+        <EntityType Name="PISTAS">
+          <Key>
+            <PropertyRef Name="Id_pista" />
+          </Key>
+          <Property Name="Id_pista" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Aforo" Type="Int32" Nullable="false" />
+          <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Deporte" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="DEPORTES" Relationship="Self.pistas_fk_dep" FromRole="PISTAS" ToRole="DEPORTES" />
+          <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_pst" FromRole="PISTAS" ToRole="RESERVAS" />
+        </EntityType>
+        <EntityType Name="RESERVAS">
+          <Key>
+            <PropertyRef Name="Id_reserva" />
+          </Key>
+          <Property Name="Id_reserva" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Usuario" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Pista" Type="Int32" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Franja" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="FRANJAS_HORARIAS" Relationship="Self.reservas_fk_frj" FromRole="RESERVAS" ToRole="FRANJAS_HORARIAS" />
+          <NavigationProperty Name="PISTAS" Relationship="Self.reservas_fk_pst" FromRole="RESERVAS" ToRole="PISTAS" />
+          <NavigationProperty Name="USUARIOS" Relationship="Self.reservas_fk_usu" FromRole="RESERVAS" ToRole="USUARIOS" />
+        </EntityType>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="Dni" />
+          </Key>
+          <Property Name="Dni" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellido1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Telefono" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Contrasena" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Administrador" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_usu" FromRole="USUARIOS" ToRole="RESERVAS" />
+        </EntityType>
+        <Association Name="pistas_fk_dep">
+          <End Role="DEPORTES" Type="Self.DEPORTES" Multiplicity="1" />
+          <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DEPORTES">
+              <PropertyRef Name="Id_deporte" />
+            </Principal>
+            <Dependent Role="PISTAS">
+              <PropertyRef Name="Deporte" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_frj">
+          <End Role="FRANJAS_HORARIAS" Type="Self.FRANJAS_HORARIAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FRANJAS_HORARIAS">
+              <PropertyRef Name="Id_franja" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Franja" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_pst">
+          <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PISTAS">
+              <PropertyRef Name="Id_pista" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Pista" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="reservas_fk_usu">
+          <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Dni" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bd_reservasEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DEPORTES" EntityType="Self.DEPORTES" />
+          <EntitySet Name="FRANJAS_HORARIAS" EntityType="Self.FRANJAS_HORARIAS" />
+          <EntitySet Name="PISTAS" EntityType="Self.PISTAS" />
+          <EntitySet Name="RESERVAS" EntityType="Self.RESERVAS" />
+          <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+          <AssociationSet Name="pistas_fk_dep" Association="Self.pistas_fk_dep">
+            <End Role="DEPORTES" EntitySet="DEPORTES" />
+            <End Role="PISTAS" EntitySet="PISTAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_frj" Association="Self.reservas_fk_frj">
+            <End Role="FRANJAS_HORARIAS" EntitySet="FRANJAS_HORARIAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_pst" Association="Self.reservas_fk_pst">
+            <End Role="PISTAS" EntitySet="PISTAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="reservas_fk_usu" Association="Self.reservas_fk_usu">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bd_reservasModelStoreContainer" CdmEntityContainer="bd_reservasEntities">
+          <EntitySetMapping Name="DEPORTES">
+            <EntityTypeMapping TypeName="bd_reservasModel.DEPORTES">
+              <MappingFragment StoreEntitySet="DEPORTES">
+                <ScalarProperty Name="Id_deporte" ColumnName="Id_deporte" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FRANJAS_HORARIAS">
+            <EntityTypeMapping TypeName="bd_reservasModel.FRANJAS_HORARIAS">
+              <MappingFragment StoreEntitySet="FRANJAS_HORARIAS">
+                <ScalarProperty Name="Id_franja" ColumnName="Id_franja" />
+                <ScalarProperty Name="Hora_inicio" ColumnName="Hora_inicio" />
+                <ScalarProperty Name="Hora_fin" ColumnName="Hora_fin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PISTAS">
+            <EntityTypeMapping TypeName="bd_reservasModel.PISTAS">
+              <MappingFragment StoreEntitySet="PISTAS">
+                <ScalarProperty Name="Id_pista" ColumnName="Id_pista" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Aforo" ColumnName="Aforo" />
+                <ScalarProperty Name="Foto" ColumnName="Foto" />
+                <ScalarProperty Name="Deporte" ColumnName="Deporte" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RESERVAS">
+            <EntityTypeMapping TypeName="bd_reservasModel.RESERVAS">
+              <MappingFragment StoreEntitySet="RESERVAS">
+                <ScalarProperty Name="Id_reserva" ColumnName="Id_reserva" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Pista" ColumnName="Pista" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Franja" ColumnName="Franja" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIOS">
+            <EntityTypeMapping TypeName="bd_reservasModel.USUARIOS">
+              <MappingFragment StoreEntitySet="USUARIOS">
+                <ScalarProperty Name="Dni" ColumnName="Dni" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+                <ScalarProperty Name="Apellido2" ColumnName="Apellido2" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+                <ScalarProperty Name="Administrador" ColumnName="Administrador" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

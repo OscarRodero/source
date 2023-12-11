@@ -16,7 +16,7 @@ namespace VideoClub
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAlquileres());
+            Application.Run(new FormDataGridView());
         }
     }
 }

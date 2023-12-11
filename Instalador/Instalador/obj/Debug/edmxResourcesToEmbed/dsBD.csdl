@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_reservasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DEPORTES">
+    <Key>
+      <PropertyRef Name="Id_deporte" />
+    </Key>
+    <Property Name="Id_deporte" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="PISTAS" Relationship="Self.pistas_fk_dep" FromRole="DEPORTES" ToRole="PISTAS" />
+  </EntityType>
+  <EntityType Name="FRANJAS_HORARIAS">
+    <Key>
+      <PropertyRef Name="Id_franja" />
+    </Key>
+    <Property Name="Id_franja" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Hora_inicio" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Hora_fin" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_frj" FromRole="FRANJAS_HORARIAS" ToRole="RESERVAS" />
+  </EntityType>
+  <EntityType Name="PISTAS">
+    <Key>
+      <PropertyRef Name="Id_pista" />
+    </Key>
+    <Property Name="Id_pista" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Aforo" Type="Int32" Nullable="false" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Deporte" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DEPORTES" Relationship="Self.pistas_fk_dep" FromRole="PISTAS" ToRole="DEPORTES" />
+    <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_pst" FromRole="PISTAS" ToRole="RESERVAS" />
+  </EntityType>
+  <EntityType Name="RESERVAS">
+    <Key>
+      <PropertyRef Name="Id_reserva" />
+    </Key>
+    <Property Name="Id_reserva" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pista" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Franja" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FRANJAS_HORARIAS" Relationship="Self.reservas_fk_frj" FromRole="RESERVAS" ToRole="FRANJAS_HORARIAS" />
+    <NavigationProperty Name="PISTAS" Relationship="Self.reservas_fk_pst" FromRole="RESERVAS" ToRole="PISTAS" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.reservas_fk_usu" FromRole="RESERVAS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="Dni" />
+    </Key>
+    <Property Name="Dni" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasena" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Administrador" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="RESERVAS" Relationship="Self.reservas_fk_usu" FromRole="USUARIOS" ToRole="RESERVAS" />
+  </EntityType>
+  <Association Name="pistas_fk_dep">
+    <End Role="DEPORTES" Type="Self.DEPORTES" Multiplicity="1" />
+    <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPORTES">
+        <PropertyRef Name="Id_deporte" />
+      </Principal>
+      <Dependent Role="PISTAS">
+        <PropertyRef Name="Deporte" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="reservas_fk_frj">
+    <End Role="FRANJAS_HORARIAS" Type="Self.FRANJAS_HORARIAS" Multiplicity="1" />
+    <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FRANJAS_HORARIAS">
+        <PropertyRef Name="Id_franja" />
+      </Principal>
+      <Dependent Role="RESERVAS">
+        <PropertyRef Name="Franja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="reservas_fk_pst">
+    <End Role="PISTAS" Type="Self.PISTAS" Multiplicity="1" />
+    <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PISTAS">
+        <PropertyRef Name="Id_pista" />
+      </Principal>
+      <Dependent Role="RESERVAS">
+        <PropertyRef Name="Pista" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="reservas_fk_usu">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="Dni" />
+      </Principal>
+      <Dependent Role="RESERVAS">
+        <PropertyRef Name="Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="bd_reservasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DEPORTES" EntityType="Self.DEPORTES" />
+    <EntitySet Name="FRANJAS_HORARIAS" EntityType="Self.FRANJAS_HORARIAS" />
+    <EntitySet Name="PISTAS" EntityType="Self.PISTAS" />
+    <EntitySet Name="RESERVAS" EntityType="Self.RESERVAS" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+    <AssociationSet Name="pistas_fk_dep" Association="Self.pistas_fk_dep">
+      <End Role="DEPORTES" EntitySet="DEPORTES" />
+      <End Role="PISTAS" EntitySet="PISTAS" />
+    </AssociationSet>
+    <AssociationSet Name="reservas_fk_frj" Association="Self.reservas_fk_frj">
+      <End Role="FRANJAS_HORARIAS" EntitySet="FRANJAS_HORARIAS" />
+      <End Role="RESERVAS" EntitySet="RESERVAS" />
+    </AssociationSet>
+    <AssociationSet Name="reservas_fk_pst" Association="Self.reservas_fk_pst">
+      <End Role="PISTAS" EntitySet="PISTAS" />
+      <End Role="RESERVAS" EntitySet="RESERVAS" />
+    </AssociationSet>
+    <AssociationSet Name="reservas_fk_usu" Association="Self.reservas_fk_usu">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="RESERVAS" EntitySet="RESERVAS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
