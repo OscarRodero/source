@@ -1,0 +1,16 @@
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\bin\Debug\net6.0-windows\AutomatizacionDePruebas.exe
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\bin\Debug\net6.0-windows\AutomatizacionDePruebas.deps.json
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\bin\Debug\net6.0-windows\AutomatizacionDePruebas.runtimeconfig.json
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\bin\Debug\net6.0-windows\AutomatizacionDePruebas.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\bin\Debug\net6.0-windows\AutomatizacionDePruebas.pdb
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.Form1.resources
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.csproj.GenerateResource.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.AssemblyInfoInputs.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.AssemblyInfo.cs
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\refint\AutomatizacionDePruebas.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.pdb
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\AutomatizacionDePruebas.genruntimeconfig.cache
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\AutomatizacionDePruebas\AutomatizacionDePruebas\obj\Debug\net6.0-windows\ref\AutomatizacionDePruebas.dll
