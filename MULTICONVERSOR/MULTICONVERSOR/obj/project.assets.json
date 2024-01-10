@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\MULTICONVERSOR\\MULTICONVERSOR\\MULTICONVERSOR.csproj",
+      "projectUniqueName": "C:\\Users\\dam201\\source\\MULTICONVERSOR\\MULTICONVERSOR\\MULTICONVERSOR.csproj",
       "projectName": "MULTICONVERSOR",
-      "projectPath": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\MULTICONVERSOR\\MULTICONVERSOR\\MULTICONVERSOR.csproj",
+      "projectPath": "C:\\Users\\dam201\\source\\MULTICONVERSOR\\MULTICONVERSOR\\MULTICONVERSOR.csproj",
       "packagesPath": "C:\\Users\\dam201\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\MULTICONVERSOR\\MULTICONVERSOR\\obj\\",
+      "outputPath": "C:\\Users\\dam201\\source\\MULTICONVERSOR\\MULTICONVERSOR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

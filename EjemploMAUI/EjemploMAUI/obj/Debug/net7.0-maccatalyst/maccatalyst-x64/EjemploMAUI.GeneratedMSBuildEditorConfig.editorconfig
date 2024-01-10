@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EjemploMAUI
+build_property.ProjectDir = C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/AbsolutePrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.AbsolutePrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsolutePrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsolutePrueba.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/Ejercicio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.Ejercicio.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/FlyoutPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.FlyoutPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPrueba.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/GridPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.GridPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = GridPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = GridPrueba.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/PaginaPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.PaginaPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = PaginaPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = PaginaPrueba.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/TabbedPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.TabbedPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPrueba.xaml
