@@ -109,28 +109,28 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Center">
                 <Button
-            x:Name="btnMenos"
-            Clicked="btnMenos_Clicked"
-            Text="-"
-            WidthRequest="70"/>
-                <Label
-            x:Name="lblNumPersonas"
-            Margin="-5,0,-5,0"
-            BackgroundColor="{StaticResource ColorSeccion}"
-            FontSize="25"
-            HeightRequest="50"
-            HorizontalOptions="Center"
-            HorizontalTextAlignment="Center"
-            Text="1"
-            TextColor="{StaticResource FuenteClara}"
-            VerticalOptions="Center"
-            VerticalTextAlignment="Center"
-            WidthRequest="100"/>
+                    x:Name="btnMenos"
+                    Clicked="btnMenos_Clicked"
+                    Text="-"
+                    WidthRequest="70"/>
+                        <Label
+                    x:Name="lblNumPersonas"
+                    Margin="-5,0,-5,0"
+                    BackgroundColor="{StaticResource ColorSeccion}"
+                    FontSize="25"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="1"
+                    TextColor="{StaticResource FuenteClara}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    WidthRequest="100"/>
                 <Button x:Name="btnMas"
-                Clicked="btnMas_Clicked"
-                Text="+"
-                WidthRequest="70"
-                />
+                    Clicked="btnMas_Clicked"
+                    Text="+"
+                    WidthRequest="70"
+                    />
             </HorizontalStackLayout>
         </Grid>
     </Grid>

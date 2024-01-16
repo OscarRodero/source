@@ -25532,24 +25532,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dam201\\.nuget\\packages\\": {},
+    "C:\\Users\\Oscar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\Propinas\\Propinas\\Propinas.csproj",
+      "projectUniqueName": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\Propinas\\Propinas\\Propinas.csproj",
       "projectName": "Propinas",
-      "projectPath": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\Propinas\\Propinas\\Propinas.csproj",
-      "packagesPath": "C:\\Users\\dam201\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dam201\\Desktop\\ProyectoDesarr\\AplicacionWFIndividual\\Propinas\\Propinas\\obj\\",
+      "projectPath": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\Propinas\\Propinas\\Propinas.csproj",
+      "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+      "outputPath": "E:\\insti\\2DAM\\DesarrolloInterfaces\\source\\Propinas\\Propinas\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dam201\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -25762,7 +25762,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
@@ -25870,7 +25870,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
@@ -25979,7 +25979,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
@@ -26037,7 +26037,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.14, 7.0.14]"
+            "version": "[7.0.15, 7.0.15]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.win",
@@ -26065,7 +26065,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.14, 7.0.14]"
+            "version": "[7.0.15, 7.0.15]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -26073,7 +26073,7 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.14, 7.0.14]"
+            "version": "[7.0.15, 7.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -26093,7 +26093,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

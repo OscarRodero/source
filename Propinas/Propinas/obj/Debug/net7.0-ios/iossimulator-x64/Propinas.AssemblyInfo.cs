@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Propinas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3be22575fea1791d0e8aefba1d554a3bf1f448b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Propinas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Propinas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
