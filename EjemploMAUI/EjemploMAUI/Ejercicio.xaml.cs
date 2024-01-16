@@ -1,9 +1,10 @@
-namespace EjemploMAUI;
-
-public partial class Ejercicio : ContentPage
+namespace EjemploMAUI
 {
-	public Ejercicio()
-	{
-		InitializeComponent();
-	}
+    public partial class Ejercicio : TabbedPage
+    {
+        public Ejercicio()
+        {
+            InitializeComponent();
+        }
+    }
 }

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Propinas.MainPage"
+             BackgroundColor="#323232"
+             >
+    <ContentPage.Resources>
+        <Color x:Key="ColorSeccion">#444444</Color>
+        <Color x:Key="FuenteClara">#d6d6d6</Color>
+        <Color x:Key="FuenteOscura">#4fd8eb</Color>
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height=".6*"/>
+        </Grid.RowDefinitions>
+        <Frame Padding="10" BackgroundColor="{StaticResource ColorSeccion}" BorderColor="Transparent">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="1"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".1*"/>
+                    <RowDefinition Height=".9*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.ColumnSpan="3"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       Text="Total por persona"
+                       TextColor="{StaticResource FuenteOscura}"/>
+                <Label x:Name="lblTotal"
+                       Grid.Row="1"
+                       FontAttributes="Bold"
+                       FontSize="35"
+                       HorizontalTextAlignment="Center"
+                       Text="0.00€"
+                       TextColor="{StaticResource FuenteClara}"
+                       VerticalOptions="CenterAndExpand"/>
+                <BoxView Grid.Row="1"
+                         Grid.Column="1"
+                         Margin="0,10,0,0"
+                         VerticalOptions="Center"
+                         Color="#adadad"/>
+                <VerticalStackLayout Grid.Row="1" 
+                                     Grid.Column="2" 
+                                     HorizontalOptions="Center" 
+                                     VerticalOptions="Center">
+                    <Label Text="SUBTOTAL" TextColor="{StaticResource FuenteClara}"/>
+                    <Label x:Name="lblSubtotal" FontAttributes="Bold" Text="0.00€" TextColor="{StaticResource FuenteClara}"/>
+                    <Label Margin="0,10,0,0" Text="Propina" TextColor="{StaticResource FuenteClara}"/>
+                    <Label x:Name="lblPropinaPorPersona" FontAttributes="Bold" Text="0.00€" TextColor="{StaticResource FuenteClara}"/>
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+        <Grid Grid.Row="1" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".3*"/>
+                <ColumnDefinition Width=".7*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Text="Introduzca valor factura: €" TextColor="{StaticResource FuenteClara}" VerticalOptions="Center"/>
+            <Entry x:Name="txtCuenta"
+               Grid.Column="1"
+               BackgroundColor="{StaticResource ColorSeccion}"
+               Completed="txtCuenta_Completed"
+               Keyboard="Numeric"
+               Text="0.0"
+               TextColor="{StaticResource FuenteClara}"
+               VerticalOptions="Center"/>
+            <Label Grid.Row="1"
+               Text="Elija su propina"
+               TextColor="{StaticResource FuenteClara}"
+               VerticalOptions="Center"/>
+            <HorizontalStackLayout 
+                Grid.Row="1"
+                Grid.Column="1" 
+                HeightRequest="70"
+                HorizontalOptions="CenterAndExpand" 
+                Spacing="10">
+                <Button Clicked="Button_Clicked" Text="10%" WidthRequest="70"/>
+                <Button Clicked="Button_Clicked" Text="15%" WidthRequest="70"/>
+                <Button Clicked="Button_Clicked" Text="20%" WidthRequest="70"/>
+            </HorizontalStackLayout>
+            <Label x:Name="lblPropina"
+               Grid.Row="2"
+               Text="Propina: 0%"
+               TextColor="{StaticResource FuenteClara}"
+               VerticalOptions="Center"/>
+            <Slider x:Name="sldPropina"
+                Grid.Row="2"
+                Grid.Column="1"
+                Maximum="50"
+                Minimum="0"
+                ValueChanged="sldPropina_ValueChanged"/>
+            <Label Grid.Row="3"
+               Text="Dividir entre nº de personas"
+               TextColor="{StaticResource FuenteClara}"
+               VerticalOptions="Center"/>
+            <HorizontalStackLayout
+                Grid.Row="3"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+                <Button
+            x:Name="btnMenos"
+            Clicked="btnMenos_Clicked"
+            Text="-"
+            WidthRequest="70"/>
+                <Label
+            x:Name="lblNumPersonas"
+            Margin="-5,0,-5,0"
+            BackgroundColor="{StaticResource ColorSeccion}"
+            FontSize="25"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Text="1"
+            TextColor="{StaticResource FuenteClara}"
+            VerticalOptions="Center"
+            VerticalTextAlignment="Center"
+            WidthRequest="100"/>
+                <Button x:Name="btnMas"
+                Clicked="btnMas_Clicked"
+                Text="+"
+                WidthRequest="70"
+                />
+            </HorizontalStackLayout>
+        </Grid>
+    </Grid>
+
+</ContentPage>

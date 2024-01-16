@@ -30,6 +30,7 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable\copy.png
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -119,6 +120,8 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\res\values\colors.xml
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\uploadflags.txt
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\resolvedassemblies.hash
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Maui.Core.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Maui.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\EjemploMAUI.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\EjemploMAUI.pdb
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\GoogleGson.dll
@@ -154,9 +157,11 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\Mono.Android.Export.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\Mono.Android.Export.pdb
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\Mono.Android.pdb
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\netstandard.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.AppContext.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Buffers.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.Immutable.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -170,15 +175,20 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Configuration.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Console.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Core.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Data.DataSetExtensions.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Data.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.Contracts.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.Debug.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.FileVersionInfo.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.Process.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.StackTrace.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.TextWriterTraceListener.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.Tools.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.TraceSource.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.Tracing.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Drawing.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Drawing.Primitives.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -229,7 +239,9 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Numerics.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.ObjectModel.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.DataContractSerialization.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.Uri.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.Xml.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.Xml.Linq.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -246,6 +258,8 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Resources.Writer.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Handles.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.InteropServices.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.InteropServices.JavaScript.dll
@@ -254,6 +268,7 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Loader.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Numerics.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Json.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Xml.dll
@@ -295,6 +310,7 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Web.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Web.HttpUtility.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Windows.dll
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.Linq.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.Serialization.dll
@@ -549,6 +565,9 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64124e178812aeed4c\LabelRenderer.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc6413a2ffd8f229512a\CarouselViewAdapter_2.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc6413a2ffd8f229512a\RecyclerViewScrollListener_2.java
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiDrawingView.java
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiPopup.java
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64338477404e88479c\ColorChangeRevealDrawable.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64338477404e88479c\ControlsAccessibilityDelegate.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler.java
@@ -799,6 +818,7 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc648afdc667cfb0dccb\SwitchRenderer.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc648afdc667cfb0dccb\TabbedPageRenderer.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc648afdc667cfb0dccb\ViewRenderer_2.java
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc6493855b22b6fa0721\TextToSpeechInternalImplementation.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_Listeners.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_TempView.java
@@ -813,6 +833,7 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64ba438d8f48cf7e75\IntermediateActivity.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64cfd8556715d86f3b\MainActivity.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64cfd8556715d86f3b\MainApplication.java
+C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64e1fb321c08285b90\BaseCellView.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64e1fb321c08285b90\CellAdapter.java
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\src\crc64e1fb321c08285b90\CellRenderer_RendererHolder.java
@@ -958,16 +979,3 @@ C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\Ejempl
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\mscorlib.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Data.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.StackTrace.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Diagnostics.TraceSource.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Private.Uri.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
-C:\Users\dam201\Desktop\ProyectoDesarr\AplicacionWFIndividual\EjemploMAUI\EjemploMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.dll

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploMAUI.EjercicioColores"
+             Title="EjercicioColores">
+    <StackLayout>
+        <Label x:Name="Título" Text="Generador de Color" FontSize="Title" HorizontalTextAlignment="Center"/> 
+        <Label x:Name="Texto_Rojo" Text="Valor Rojo: "/>
+        <Slider x:Name="R" Minimum="0" Maximum="255" ThumbColor="Red" ValueChanged="R_ValueChanged" />
+        <Label x:Name="Texto_Verde" Text="Valor Verde: "/>
+        <Slider x:Name="G" Minimum="0" Maximum="255" ThumbColor="Green" ValueChanged="G_ValueChanged"/>
+        <Label x:Name="Texto_Azul" Text="Valor Azul: "/>
+        <Slider x:Name="B" Minimum="0" Maximum="255" ThumbColor="Blue" ValueChanged="B_ValueChanged"/>
+        <Grid>
+            <Frame CornerRadius="25" HorizontalOptions="Center">                   
+                <HorizontalStackLayout>
+                    <Label x:Name="lblHex"
+                           HorizontalTextAlignment="End"
+                           Text="Valor Hex: #000000"
+                           VerticalOptions="Center"/>
+                    <ImageButton x:Name="Copiar" Margin="10,0,0,0" Source="copy.png" WidthRequest="100" HeightRequest="100" VerticalOptions="EndAndExpand" BackgroundColor="Transparent" Clicked="Copiar_Clicked"/>
+                </HorizontalStackLayout>
+            </Frame>
+        </Grid>
+        <Button x:Name="Color_Aleatorio" Text="Generar Color Aleatorio" Clicked="Color_Aleatorio_Clicked" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>

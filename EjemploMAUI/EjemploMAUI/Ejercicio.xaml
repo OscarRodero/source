@@ -1,16 +1,88 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EjemploMAUI.Ejercicio"
-             Title="Ejercicio">
+             x:Class="EjemploMAUI.Ejercicio">
     
     <ContentPage Title="Mobile">
-        <VerticalStackLayout>
-            
-        </VerticalStackLayout>
+        <StackLayout>
+            <Label 
+                Text="HEADER"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="25"
+                WidthRequest="100"
+                BackgroundColor="Black"
+                TextColor="White"
+            />
+            <Label 
+                Text="MENU"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="25"
+                WidthRequest="100"
+                BackgroundColor="Red"
+                TextColor="White"
+            />
+            <Label 
+                Text="HERO"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="100"
+                WidthRequest="100"
+                BackgroundColor="LightBlue"
+                TextColor="White"
+            />
+            <Label 
+                Text="MAIN"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="100"
+                WidthRequest="100"
+                BackgroundColor="DeepSkyBlue"
+                TextColor="White"
+            />
+            <Label 
+                Text="BANNER"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="50"
+                WidthRequest="100"
+                BackgroundColor="Yellow"
+            />
+            <Label 
+                Text="EXTRA"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="50"
+                WidthRequest="100"
+                BackgroundColor="Aquamarine"
+            />
+            <Label 
+                Text="IMAGE"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                HeightRequest="25"
+                WidthRequest="100"
+                BackgroundColor="LightGray"
+            />
+        </StackLayout>
     </ContentPage>
     <ContentPage Title="Tablet">
-
+        
     </ContentPage>
     <ContentPage Title="Desktop">
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploMAUI.FlexPrueba2"
+             Title="FlexPrueba2">
+    <FlexLayout Wrap="Wrap" JustifyContent="SpaceEvenly" AlignItems="Center">
+        <Button Text="Botón 1"/>
+        <Button Text="Botón 2"/>
+        <Button Text="Botón 3"/>
+        <Button Text="Botón 4"/>
+        <Button Text="Botón 5"/>
+        <Button Text="Botón 6"/>
+        <Button Text="Botón 7"/>
+        <Button Text="Botón 8"/>
+        <Button Text="Botón 9"/>
+        <Button Text="Botón 10"/>
+        <Button Text="Botón 11"/>
+        <Button Text="Botón 12"/>
+    </FlexLayout>
+</ContentPage>

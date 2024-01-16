@@ -30,11 +30,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/ControlesPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.ControlesPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = ControlesPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = ControlesPrueba.xaml
+
 [C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/Ejercicio.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.Ejercicio.xaml
 build_metadata.AdditionalFiles.TargetPath = Ejercicio.xaml
 build_metadata.AdditionalFiles.RelativePath = Ejercicio.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/EjercicioColores.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.EjercicioColores.xaml
+build_metadata.AdditionalFiles.TargetPath = EjercicioColores.xaml
+build_metadata.AdditionalFiles.RelativePath = EjercicioColores.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/FlexPrueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.FlexPrueba.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexPrueba.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexPrueba.xaml
+
+[C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/FlexPrueba2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjemploMAUI.FlexPrueba2.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexPrueba2.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexPrueba2.xaml
 
 [C:/Users/dam201/Desktop/ProyectoDesarr/AplicacionWFIndividual/EjemploMAUI/EjemploMAUI/FlyoutPrueba.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
