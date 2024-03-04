@@ -1,0 +1,7 @@
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.Form1.resources
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.csproj.GenerateResource.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.GeneratedMSBuildEditorConfig.editorconfig
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.AssemblyInfoInputs.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.AssemblyInfo.cs
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.csproj.CoreCompileInputs.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\MULTICONVERSOR\MULTICONVERSOR\obj\Debug\net6.0-windows\MULTICONVERSOR.sourcelink.json

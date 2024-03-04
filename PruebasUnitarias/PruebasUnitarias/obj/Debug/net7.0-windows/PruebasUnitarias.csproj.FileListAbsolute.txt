@@ -1,0 +1,17 @@
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\bin\Debug\net7.0-windows\PruebasUnitarias.exe
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\bin\Debug\net7.0-windows\PruebasUnitarias.deps.json
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\bin\Debug\net7.0-windows\PruebasUnitarias.runtimeconfig.json
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\bin\Debug\net7.0-windows\PruebasUnitarias.dll
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\bin\Debug\net7.0-windows\PruebasUnitarias.pdb
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.Form1.resources
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.csproj.GenerateResource.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.GeneratedMSBuildEditorConfig.editorconfig
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.AssemblyInfoInputs.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.AssemblyInfo.cs
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.csproj.CoreCompileInputs.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.sourcelink.json
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.dll
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\refint\PruebasUnitarias.dll
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.pdb
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\PruebasUnitarias.genruntimeconfig.cache
+E:\insti\2DAM\DesarrolloInterfaces\source\PruebasUnitarias\PruebasUnitarias\obj\Debug\net7.0-windows\ref\PruebasUnitarias.dll
